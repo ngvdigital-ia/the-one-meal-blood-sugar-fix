@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 832 512" role="img" aria-labelledby="title desc">
+  <title id="title">The One-Meal Blood Sugar Fix presentation poster</title>
+  <desc id="desc">A warm morning table setting against a dark blue background.</desc>
+  <defs>
+    <linearGradient id="sky" x1="88" y1="36" x2="744" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#263745"/>
+      <stop offset=".54" stop-color="#14212c"/>
+      <stop offset="1" stop-color="#0a1117"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="matrix(173 0 0 173 636 133)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4d6a1" stop-opacity=".9"/>
+      <stop offset=".43" stop-color="#b9785b" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#2b3944" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#72483a"/>
+      <stop offset="1" stop-color="#3c2826"/>
+    </linearGradient>
+  </defs>
+  <rect width="832" height="512" fill="url(#sky)"/>
+  <rect width="832" height="512" fill="url(#sun)"/>
+  <path d="M0 330C128 290 247 348 386 319c148-31 261-116 446-90v283H0z" fill="#152129" opacity=".72"/>
+  <path d="M0 372c188-52 303 1 463-26 157-27 265-100 369-75v241H0z" fill="url(#table)"/>
+  <ellipse cx="377" cy="391" rx="167" ry="63" fill="#11191e" opacity=".33"/>
+  <ellipse cx="377" cy="375" rx="142" ry="50" fill="#f1e4cf"/>
+  <ellipse cx="377" cy="373" rx="124" ry="41" fill="#d7b983"/>
+  <path d="M314 374c24-36 44-33 64-16 19-22 50-19 72 11-28 19-108 23-136 5z" fill="#668045"/>
+  <circle cx="350" cy="356" r="15" fill="#d88854"/>
+  <circle cx="402" cy="356" r="15" fill="#d88854"/>
+  <path d="M538 342c-6-60 8-106 43-106 35 0 47 46 41 106z" fill="#ebe5d8"/>
+  <path d="M549 337c-3-48 6-82 32-82 25 0 35 34 30 82z" fill="#9c6e54"/>
+  <path d="M542 344h79" stroke="#e7d5bd" stroke-width="8" stroke-linecap="round"/>
+  <path d="M0 1h831v510H0z" fill="none" stroke="#f7ead3" stroke-opacity=".2"/>
+</svg>

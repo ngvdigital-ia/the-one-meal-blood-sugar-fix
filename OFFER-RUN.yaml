@@ -7,10 +7,9 @@ published_route: /
 task_id: 86ak1gg9j
 state:
   structure: structure-ready
-  video: waiting-video
+  video: structure-ready
   tracking: waiting-tracking
 pending:
-  - official_vsl_embed
   - official_tracking
   - checkout_url
 derived_from_ngv_patterns:
