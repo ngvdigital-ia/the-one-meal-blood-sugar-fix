@@ -1,0 +1,36 @@
+schema: codex-offer-run.v1
+offer: The One-Meal Blood Sugar Fix
+route: clone
+source_url: https://www.my-review-blog.com/blood-sugar-fix-hl1/
+target_dir: the-one-meal-blood-sugar-fix
+published_route: /
+task_id: 86ak1gg9j
+state:
+  structure: structure-ready
+  video: waiting-video
+  tracking: waiting-tracking
+pending:
+  - official_vsl_embed
+  - official_tracking
+  - checkout_url
+derived_from_ngv_patterns:
+  locale: en
+  page_type: vsl
+  domain_candidate: one-meal-blood-sugar-fix.online
+  domain_candidate_status: registered_active_dns_configured_2026-08-17
+  domain_candidate_next_gate: public_dns_propagation_and_future_deployment
+  notes:
+    - ".online is the documented standard TLD for NGV offers; the domain is registered, attached to its Vercel project and has the recommended Hostinger A records."
+    - "VTurb, Meta Pixel, UTMify and checkout remain offer-specific inputs and are intentionally not inferred."
+gates:
+  static: PASS
+  mobile_390x844: PASS
+  desktop_1440x900: PASS
+  assets_natural_width: PASS
+  forbidden_integrations: PASS
+evidence:
+  source_html: evidence/source-reference.html
+  source_headers: evidence/source-headers.txt
+  deterministic_gates: evidence/deterministic-gates.txt
+  mobile_screenshot: evidence/clone-mobile-390x844.png
+  desktop_screenshot: evidence/clone-desktop-1440x900.png

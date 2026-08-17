@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "offer_name": "The One-Meal Blood Sugar Fix",
+  "niche": "Diabetes",
+  "language": "en",
+  "copywriter": "Gabriel Lima",
+  "task_id": "86ak1gg9j",
+  "parent_task_id": "86ak1gg92",
+  "reference_url": "https://www.my-review-blog.com/blood-sugar-fix-hl1/",
+  "published_route": "/",
+  "delivery_states": [
+    "waiting-video",
+    "waiting-tracking"
+  ],
+  "video_embed": null,
+  "meta_pixel_id": null,
+  "utmify_id": null,
+  "checkout_url": null,
+  "domain": "one-meal-blood-sugar-fix.online",
+  "domain_status": "active_dns_configured",
+  "vercel_project": "the-one-meal-blood-sugar-fix",
+  "domain_candidate": "one-meal-blood-sugar-fix.online",
+  "domain_candidate_status": "registered_active_dns_configured_2026-08-17",
+  "domain_candidate_next_gate": "public_dns_propagation_and_future_deployment"
+}
