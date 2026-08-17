@@ -172,12 +172,12 @@ h1 {
   }
 
   .presentation-section {
-    padding: 0 25px;
+    padding: 0 20px;
   }
 
   .video-poster {
     width: 100%;
-    aspect-ratio: 340 / 209;
+    aspect-ratio: 351 / 216;
     margin-top: 18px;
   }
 
