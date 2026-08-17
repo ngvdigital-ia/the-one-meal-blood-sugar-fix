@@ -5,32 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The One-Meal Blood Sugar Fix — the official video presentation.">
     <title>The One-Meal Blood Sugar Fix — Official Presentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
     <style>
-      :root{--paper:#f5f2eb;--ink:#161616;--muted:#6e6a63;--wine:#7a2e2e;--line:#d9d3c8;--player:#111416}*{box-sizing:border-box}html{min-width:320px;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}body{min-height:100vh;margin:0;background:var(--paper);background-attachment:scroll}.page-frame{width:min(100%,1120px);margin:0 auto;padding:0 20px 24px}.topline{display:flex;align-items:center;gap:10px;padding:18px 0 16px;border-bottom:1px solid var(--line)}.topline-mark{width:8px;height:8px;border-radius:50%;background:var(--wine);box-shadow:0 0 0 4px rgba(122,46,46,.1)}.intro{padding:32px 0 22px;text-align:center}.eyebrow{margin:0 0 13px;color:var(--wine);font-size:12px;font-weight:700;letter-spacing:.18em;line-height:1.25;text-transform:uppercase}.headline{max-width:900px;margin:0 auto;color:var(--wine);font-size:clamp(30px,6vw,56px);font-weight:700;line-height:1.08;letter-spacing:-.035em;text-wrap:balance}.video-section{padding:0}.player-shell{width:min(100%,400px);aspect-ratio:4/5;margin:0 auto;overflow:hidden;background:var(--player);box-shadow:0 18px 42px rgba(22,22,22,.16)}vtube-player{display:block;width:100%;height:100%;min-height:0;aspect-ratio:4/5;background:var(--player)}.watch-note{margin:14px 0 0;color:var(--ink);font-size:16px;font-weight:400;line-height:1.4;text-align:center}.review-badge{width:min(190px,54%);margin:19px auto 0}.review-badge img{display:block;width:100%;height:auto}.site-footer{padding:72px 0 0;color:var(--muted);font-size:12px;line-height:1.5;text-align:center}.site-footer p{margin:0}.site-footer p+p{margin-top:5px}@media (min-width:700px){.page-frame{padding:0 50px 30px}.topline{padding-top:22px}.intro{padding:52px 0 28px}.player-shell{border-radius:2px}.site-footer{padding-top:92px}}@media (max-width:480px){.page-frame{padding-inline:20px}.topline{padding-top:15px;padding-bottom:14px}.intro{padding-top:28px;padding-bottom:20px}.headline{font-size:29px;line-height:1.1}.video-section{margin-inline:-2px}.watch-note{font-size:15px}.site-footer{padding-top:66px}}@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:0s!important;animation-duration:0s!important}}
+      :root{--bg:#fff;--dark:#3d1f1f;--headline:#7a2e2e;--body:#4d5663;--muted:#8993a0;--accent:#7a2e2e;--violet-1:#8b5cf6;--violet-2:#7c3aed}
+      *,*::before,*::after{box-sizing:border-box}
+      html,body{margin:0;padding:0;background:var(--bg);color:var(--body)}
+      body{font:400 17px/1.6 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+      img{display:block;max-width:100%;height:auto}
+      .page-frame{max-width:680px;margin:0 auto;padding:0 18px 24px}
+      .vsl-headline{margin:26px 0 14px;color:var(--headline);font:900 26px/1.16 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.01em;text-align:center;text-wrap:balance}
+      .vsl-watching-wrap{width:100%;padding:14px 0;text-align:center}
+      .vsl-watching{position:relative;display:inline-flex;align-items:center;gap:8px;overflow:hidden;padding:10px 20px;border-radius:30px;background:linear-gradient(135deg,var(--violet-1),var(--violet-2));box-shadow:0 3px 15px rgb(124 58 237 / .3),0 0 25px rgb(124 58 237 / .15);color:#fff;font:500 13px/1.6 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .vsl-watching span,.vsl-watching .vw-dot{position:relative;z-index:1}
+      .vsl-watching .vw-shine{position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:linear-gradient(45deg,transparent,rgb(255 255 255 / .1),transparent);animation:vsl-shimmer 3s infinite;transform:rotate(45deg)}
+      .vsl-watching .vw-dot{width:8px;height:8px;border-radius:50%;background:#10b981;animation:vsl-pulse-dot 2s infinite}
+      .vsl-watching .vw-dot::after{position:absolute;top:50%;left:50%;width:100%;height:100%;border-radius:50%;background:#10b981;content:"";opacity:.6;animation:vsl-pulse-ring 2s infinite;transform:translate(-50%,-50%)}
+      #viewerCount{font-size:14px;font-weight:600}.vw-fb{color:#fbbf24;font-weight:600}
+      @keyframes vsl-shimmer{0%{transform:translateX(-100%) rotate(45deg)}100%{transform:translateX(100%) rotate(45deg)}}
+      @keyframes vsl-pulse-dot{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+      @keyframes vsl-pulse-ring{0%{transform:translate(-50%,-50%) scale(1);opacity:.6}100%{transform:translate(-50%,-50%) scale(2);opacity:0}}
+      .player-shell{width:100%;max-width:400px;margin:0 auto;background:#0c0c12;aspect-ratio:4/5;overflow:hidden}
+      vtube-player{display:block;width:100%;height:100%;aspect-ratio:4/5;background:#0c0c12}
+      .watch-note{margin:14px 0 0;color:var(--dark);font-size:16px;font-weight:400;line-height:1.4;text-align:center}
+      .review-badge{width:min(190px,54%);margin:19px auto 0}.review-badge img{width:100%}
+      .site-footer{margin:28px 0 0;padding:22px 0 18px;border-top:1px solid #e8eaee;color:var(--muted);font-size:13px;line-height:1.5;text-align:center}.site-footer p{margin:6px 0}
+      .vsl-exit-overlay{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:16px;background:rgb(0 0 0 / .66)}
+      .vsl-exit-overlay.open{display:flex;animation:vsl-fade .2s ease}
+      .vsl-exit-box{position:relative;max-width:620px;max-height:92vh;width:100%;overflow:auto;border-top:6px solid var(--accent);border-radius:10px;background:var(--bg);padding:26px;color:var(--body);animation:vsl-drop .25s ease}
+      .vsl-exit-x{position:absolute;top:8px;right:14px;border:0;background:none;color:var(--body);cursor:pointer;font-size:26px;line-height:1;opacity:.7}
+      .vsl-exit-h{margin:2px 0 16px;color:var(--dark);font:800 21px/1.2 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:center}.vsl-exit-h .sig{color:#b91c1c;font-weight:900}.vsl-exit-h .eh-1{display:block;margin-bottom:5px;font-size:26px;font-weight:900}.vsl-exit-h .eh-2{display:block;color:var(--dark);font-size:20px;font-weight:700}
+      .vsl-exit-grid{display:flex;align-items:center;gap:16px}.vsl-exit-img{max-width:42%;border-radius:6px;cursor:pointer}.vsl-exit-body{margin:0;font-size:20px;line-height:1.5}
+      .vsl-exit-cta-wrap{margin:18px 0 0;text-align:center}.vsl-exit-cta{position:relative;display:block;overflow:hidden;border-radius:10px;background:#d4a017;padding:16px 18px;color:var(--dark);font:900 20px/1.15 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.01em;text-align:center;text-decoration:none;animation:vsl-pulse-grow .85s infinite}.vsl-exit-cta .shine{position:absolute;top:0;left:-150%;width:60%;height:100%;background:linear-gradient(120deg,transparent,rgb(255 255 255 / .45),transparent);animation:vsl-simple-shine 3.2s infinite;transform:skewX(-20deg)}
+      @keyframes vsl-fade{from{opacity:0}to{opacity:1}}@keyframes vsl-drop{from{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:none}}@keyframes vsl-simple-shine{0%{left:-150%}60%,100%{left:150%}}@keyframes vsl-pulse-grow{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+      @media (min-width:760px){body{font-size:18px}.page-frame{max-width:720px}.vsl-headline{margin:38px 0 18px;font-size:34px}.vsl-exit-box{max-width:760px;padding:34px}.vsl-exit-h .eh-1{margin-bottom:8px;font-size:48px}.vsl-exit-h .eh-2{font-size:26px}.vsl-exit-body{font-size:23px}}
+      @media (max-width:480px){.vsl-exit-grid{flex-direction:column}.vsl-exit-img{max-width:78%}.vsl-exit-h{font-size:20px}}
+      @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0s!important;scroll-behavior:auto!important;transition-duration:0s!important}}
     </style>
     <script src="https://p.virtuclix.com/vt2e768a71632897.js" defer></script>
   </head>
   <body>
-    <!-- Official VSL player supplied for this offer. -->
     <main class="page-frame">
-      <div class="topline" aria-hidden="true"><span class="topline-mark"></span></div>
-      <section class="intro" aria-labelledby="main-headline">
-        <p class="eyebrow">The One-Meal Blood Sugar Fix</p>
-        <h1 id="main-headline" class="headline">Swedish Researchers Finally Explained The Morning Blood Sugar Spike — And The 5-Minute Breakfast That Shuts It Down</h1>
-      </section>
-      <section class="video-section" aria-label="Official video presentation">
-        <div class="player-shell">
-          <vtube-player id="vid-vt2e768a71632897"></vtube-player>
+      <h1 class="vsl-headline">Swedish Researchers Finally Explained The Morning Blood Sugar Spike — And The 5-Minute Breakfast That Shuts It Down</h1>
+      <div class="vsl-watching-wrap" aria-label="Live viewer count">
+        <div class="vsl-watching">
+          <span class="vw-shine" aria-hidden="true"></span><span class="vw-dot" aria-hidden="true"></span><span id="viewerCount">750</span><span>people from</span><span class="vw-fb">Facebook</span><span>are watching</span>
         </div>
+      </div>
+      <section aria-label="Official video presentation">
+        <div class="player-shell"><vtube-player id="vid-vt2e768a71632897"></vtube-player></div>
         <p class="watch-note">(Watch The Shocking Discovery @ 1:45min)</p>
-        <figure class="review-badge">
-          <img src="/assets/reference-badge.webp" width="545" height="199" alt="Excellent, trustworthy 9.7, based on 2,387 reviews">
-        </figure>
+        <figure class="review-badge"><img src="/assets/reference-badge.webp" width="545" height="199" alt="Excellent, trustworthy 9.7, based on 2,387 reviews"></figure>
       </section>
-      <footer class="site-footer">
-        <p>Your information is 100% secure and will never be shared with anyone.</p>
-        <p>© 2025 | <span>Legal Information</span></p>
-      </footer>
+      <footer class="site-footer"><p>Your information is 100% secure and will never be shared with anyone.</p><p>© 2025 | <span>Legal Information</span></p></footer>
     </main>
+    <div class="vsl-exit-overlay" id="vslExitModal" role="dialog" aria-modal="true" aria-label="Wait">
+      <div class="vsl-exit-box">
+        <button class="vsl-exit-x" type="button" data-vsl-exit-close aria-label="Close">×</button>
+        <h2 class="vsl-exit-h"><span class="eh-1"><span class="sig">WAIT!</span> In Just <span class="sig">1:45</span>...</span><span class="eh-2">I'll Reveal My 5-Minute Morning Trick That Flattens Blood Sugar Fast!</span></h2>
+        <div class="vsl-exit-grid"><img class="vsl-exit-img" src="https://files.virtuclix.com/products/endspikes-com/images/adapt-exit_popup_image-v0-faae4c15.webp" alt="" width="291" height="208" loading="lazy" decoding="async" data-vsl-exit-close title="Continue watching"><p class="vsl-exit-body">It's a 5-minute 'morning trick' you can do at home right now. It is absurdly simple and highly effective for flattening blood sugar. Try it tomorrow. <b>Believe me, you'll love this.</b></p></div>
+        <div class="vsl-exit-cta-wrap"><a class="vsl-exit-cta" href="#" data-vsl-exit-close><span class="shine" aria-hidden="true"></span>Keep Watching To See My Trick »</a></div>
+      </div>
+    </div>
+    <script>
+      (function(){
+        var count=document.getElementById('viewerCount'),min=702,max=880,value=Math.floor(720+Math.random()*120);
+        function tick(){var delta=Math.floor(Math.random()*7)-3;if(value<730)delta+=Math.floor(Math.random()*3)+1;if(value>860)delta-=Math.floor(Math.random()*4)+1;value=Math.max(min,Math.min(max,value+delta));count.textContent=value;setTimeout(tick,2000+Math.random()*2000)}
+        count.textContent=value;setTimeout(tick,1200);
+      }());
+      (function(){
+        var modal=document.getElementById('vslExitModal'),shown=false;
+        function show(){if(shown)return;try{if(sessionStorage.getItem('vslExitShown'))return}catch(error){}shown=true;try{sessionStorage.setItem('vslExitShown','1')}catch(error){}modal.classList.add('open')}
+        function hide(){modal.classList.remove('open')}
+        setTimeout(function(){document.addEventListener('mouseout',function(event){if(!event.relatedTarget&&event.clientY<=0)show()})},4000);
+        try{history.pushState(null,'',location.href);window.addEventListener('popstate',function(){if(!shown){show();history.pushState(null,'',location.href)}})}catch(error){}
+        modal.addEventListener('click',function(event){if(event.target===modal)hide()});
+        Array.prototype.forEach.call(modal.querySelectorAll('[data-vsl-exit-close]'),function(control){control.addEventListener('click',function(event){event.preventDefault();hide()})});
+      }());
+    </script>
   </body>
 </html>
