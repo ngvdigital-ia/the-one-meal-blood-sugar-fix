@@ -20,6 +20,12 @@
   "domain_status": "active_dns_configured",
   "vercel_project": "the-one-meal-blood-sugar-fix",
   "github_repository": "ngvdigital-ia/the-one-meal-blood-sugar-fix",
+  "deployment": {
+    "status": "published_prelaunch",
+    "production_url": "https://one-meal-blood-sugar-fix.online",
+    "source": "manual_initial_deploy",
+    "git_auto_deploy": "pending_github_app_repository_access"
+  },
   "domain_candidate": "one-meal-blood-sugar-fix.online",
   "domain_candidate_status": "registered_active_dns_configured_2026-08-17",
   "domain_candidate_next_gate": "public_dns_propagation_and_future_deployment"

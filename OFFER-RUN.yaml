@@ -24,12 +24,19 @@ derived_from_ngv_patterns:
   notes:
     - ".online is the documented standard TLD for NGV offers; the domain is registered, attached to its Vercel project and has the recommended Hostinger A records."
     - "VTurb, Meta Pixel, UTMify and checkout remain offer-specific inputs and are intentionally not inferred."
+deployment:
+  project: the-one-meal-blood-sugar-fix
+  production_url: https://one-meal-blood-sugar-fix.online
+  status: published_prelaunch
+  source: manual_initial_deploy
+  git_auto_deploy: pending_github_app_repository_access
 gates:
   static: PASS
   mobile_390x844: PASS
   desktop_1440x900: PASS
   assets_natural_width: PASS
   forbidden_integrations: PASS
+  anonymous_production: PASS
 evidence:
   source_html: evidence/source-reference.html
   source_headers: evidence/source-headers.txt
